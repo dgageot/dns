@@ -1,4 +1,4 @@
-# Cadavres Exquis "DockerCon 2016 edition"
+# DNS bug
 
 ## Setup
 
