@@ -12,7 +12,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-Open a browser on `http://localhost`. Refresh. It should say `I see 1 java container(s)`.
+Open a browser on `http://localhost`. Refresh. It should say `I see 1 backend container(s)`.
 
 ## Scale the backend up
 
@@ -20,7 +20,7 @@ Open a browser on `http://localhost`. Refresh. It should say `I see 1 java conta
 docker-compose scale back=20
 ```
 
-Open a browser on `http://localhost`. Refresh. It should say `I see 20 java container(s)`.
+Open a browser on `http://localhost`. Refresh. It should say `I see 20 backend container(s)`.
 
 ## Scale the backend down
 
@@ -28,7 +28,7 @@ Open a browser on `http://localhost`. Refresh. It should say `I see 20 java cont
 docker-compose scale back=1
 ```
 
-Open a browser on `http://localhost`. Refresh. It should say `I see 1 java container(s)`.
+Open a browser on `http://localhost`. Refresh. It should say `I see 1 backend container(s)`.
 
 ## Initialize swarm
 
@@ -42,7 +42,7 @@ docker swarm init
 docker-compose scale back=20
 ```
 
-Open a browser on `http://localhost`. Refresh. It should say `I see 20 java container(s)`.
+Open a browser on `http://localhost`. Refresh. It should say `I see 20 backend container(s)`.
 
 ## Scale the backend down
 
@@ -50,4 +50,4 @@ Open a browser on `http://localhost`. Refresh. It should say `I see 20 java cont
 docker-compose scale back=1
 ```
 
-Open a browser on `http://localhost`. Refresh. It should say `I see 1 java container(s)`.
+Open a browser on `http://localhost`. Refresh. It should say `I see 1 backend container(s)`.
